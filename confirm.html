@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/css?family=Hahmlet:regular&display=swap" rel="stylesheet" />
+   <link href="https://fonts.googleapis.com/css?family=Kumbh+Sans:regular, 600&display=swap" rel="stylesheet" />
+   <link rel="stylesheet" href="/css/style.css">
+   <title>confirm</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__container">
+            <a href="index.html" class="header__logo">
+               <img src="/img/logo.svg" alt="logo">
+            </a>
+            <nav class="header__menu menu">
+               <select name="country" class="menu__country">
+                  <option value="Netherlands">NL</option>
+                  <option value="Poland">PL</option>
+                  <option value="Ukraine">UK</option>
+                  <option value="England">EN</option>
+               </select>
+            </nav>
+         </div>
+      </header>
+      <main class="main">
+         <div class="main__info info">
+            <div class="info__container">
+               <div class="info__img img-next">
+                  <img src="/img/Tell.svg" alt="img" class="tell">
+               </div>
+            </div>
+         </div>
+         <div class="main__form form">
+            <div class="form__container">
+               <div class="form__img">
+                  <img src="/img/Step_02.svg" alt="img">
+               </div>
+               <div class="form__title">Verifieer dat jij het bent</div>
+               <div class="form__subtitle">
+                  <p>Nog een klein dingetje voordat je kan beginnen!</p>
+                  We hebben je op <span>thomas@guardey.com</span> een email gestuurd met daarin 6 cijferige code.
+                  Vul deze code hieronder in.
+               </div>
+               <form action="#" method="post" class="forms">
+                  <div class="forms__code">
+                     <label for="text" class="forms__lable">Verificatiecode:</label>
+                     <input type="text" class="forms__input" placeholder="Vul hier je zescijferige code in">
+                  </div>
+               </form>
+               <div class="form__button button button-row">
+                  <div class="button__registr">
+                     <a href="#" class="button__reg">
+                        Volgende
+                        <div class="button__icon">
+                           <img src="/img/Variant.svg" alt="img">
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <div class="forms__txt">
+                  <a href="#">Verzend code opnieuw</a>
+               </div>
+            </div>
+         </div>
+      </main>
+   </div>
+</body>
+
+</html>
