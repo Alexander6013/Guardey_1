@@ -63,7 +63,7 @@ main {
    content: '';
    width: 18px;
    height: 7px;
-   background: url('/img/Vector.svg') no-repeat;
+   background: url("../img/Vector.svg") no-repeat;
    position: absolute;
    right: 1px;
    top: 16px;
@@ -139,13 +139,13 @@ main {
 
 .info__list li {
    align-self: flex-start;
-   background: url('/img/check.svg') 0 6px no-repeat;
+   background: url('../img/check.svg') 0 6px no-repeat;
    padding: 0px 0px 0px 27px;
 }
 
 @media (max-width: 520.98px) {
    .info__list li {
-      background: url('/img/check.svg') 0 0px no-repeat;
+      background: url('../img/check.svg') 0 0px no-repeat;
    }
 
    .info__list:last-child {
@@ -498,7 +498,7 @@ main {
 // .forms__business::after,
 // .forms__employee::after {
 //    content: '';
-//    background: url('/img/Vector-down.svg') 0 no-repeat;
+//    background: url('../img/Vector-down.svg') 0 no-repeat;
 //    width: 10px;
 //    height: 10px;
 //    align-self: end;
