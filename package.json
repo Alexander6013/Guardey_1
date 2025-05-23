@@ -1,0 +1,27 @@
+{
+  "name": "myfirstproject_1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch": "sass --watch ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexander6013/Guardey_1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexander6013/Guardey_1/issues"
+  },
+  "homepage": "https://github.com/Alexander6013/Guardey_1#readme",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.6",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "sass": "^1.89.0"
+  }
+}
