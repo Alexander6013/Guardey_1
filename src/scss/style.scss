@@ -49,7 +49,7 @@ main {
 
    &__country {
       border: solid 1px var(--color-border);
-      border-radius: 10px;
+      border-radius: var(--border-country);
       font-family: Kumbh Sans;
       font-weight: 600;
       font-size: 14px;
@@ -246,7 +246,7 @@ main {
    }
 
    &__input {
-      border-radius: 50px;
+      border-radius: var(--border-input);
       padding: 16px 16px;
       font-family: Kumbh Sans;
       font-weight: 400;
@@ -276,7 +276,7 @@ main {
       width: 100%;
       padding: 16px 0px;
       background-color: var(--color-lime);
-      border-radius: 50px;
+      border-radius: var(--border-input);
       transition: background-color 0.3s ease 0s;
    }
 
@@ -297,7 +297,7 @@ main {
       padding: 17px 0px;
       background-color: var(--color-light-green);
       border: 2px solid var(--color-green);
-      border-radius: 50px;
+      border-radius: var(--border-input);
       transition: background-color 0.3s ease 0s;
    }
 
@@ -408,7 +408,7 @@ main {
       align-items: center;
       gap: 5px;
       width: 100%;
-      border-radius: 15px;
+      border-radius: var(--border-forms_info);
       background-color: var(--color-infoRect);
    }
 
@@ -435,7 +435,7 @@ main {
    &__decor3 {
       width: 30%;
       height: 5px;
-      border-radius: 20px;
+      border-radius: var(--border-forms_decor);
       opacity: 0.2;
       background-color: #011816;
    }
@@ -461,7 +461,7 @@ main {
 
 .button__back img {
    background-color: var(--color-light-green);
-   border-radius: 50%;
+   border-radius: var(--border-img);
 }
 
 @media (max-width: 520.98px) {
